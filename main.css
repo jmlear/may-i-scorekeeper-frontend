@@ -1,0 +1,41 @@
+body {
+	background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+body.success {
+	background-color: green;
+}
+
+body.failure {
+	background-color: red;
+}
+
+#nameContainer, #totalScores, [id^="scoresContainer"] {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#totalScores {
+	font-size: 4em;
+	text-align: center;
+}
+
+#nameContainer {
+	font-size: 2em;
+}
+
+#submitScores {
+	background: rgb(28, 184, 65);
+}
+
+#nameContainer > input, #nameContainer > button {
+	width: 100%;
+	padding: 2px;
+}
+
+.scoreInput, .totalScoreDisplay {
+	width: 100%;
+}
